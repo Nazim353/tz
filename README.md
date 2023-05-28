@@ -1,2 +1,1 @@
-# tz
-https://nazim353.github.io/tz/
+# tzhttps://nazim353.github.io/tz/
