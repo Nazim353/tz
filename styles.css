@@ -126,7 +126,9 @@ header {
   padding-left: 180px;
   padding-bottom: 50px;
 }
-
+p {
+  text-align: justify ;
+}
 
 .container0 {
   max-width: 1200px;
