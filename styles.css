@@ -192,9 +192,10 @@ section {
 }
 
 .gallery-items img {
-  width: 50%;
+  width: 70%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 3px;
+  
 }
 
 
