@@ -167,6 +167,70 @@ section {
   color: #442074;
 }
 
+
+
+
+
+
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0; /* No gap between images */
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden; /* Ensure images don't overflow */
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value as needed */
+  grid-gap: 20px; /* Adjust the gap between images as needed */
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden; /* Ensure images don't overflow their containers */
+}
+
+.gallery img {
+  width: 100%; /* Make sure images fill their containers */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  border-radius: 5%; /* Optional: Add rounded corners */
+  transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+
+
+
+
+
+
+
+
 .profile {
   display: flex;
   align-items: center;
