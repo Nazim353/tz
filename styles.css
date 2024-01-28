@@ -167,6 +167,39 @@ section {
   color: #442074;
 }
 
+
+
+
+
+
+#gallery {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.container5 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.gallery-items img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
 .profile {
   display: flex;
   align-items: center;
