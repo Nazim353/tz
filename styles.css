@@ -10,11 +10,7 @@ nav {
   padding: 10px 0;
 }
 
-.logo {
-  position: absolute;
-  top: -5px;
-  left: 10px;
-}
+
 
 nav ul {
   list-style-type: none;
@@ -85,13 +81,6 @@ nav ul li a:hover {
   }
 }
 
-/* Large devices (992px and above) */
-@media (min-width: 993px) {
-  .logo {
-    position: absolute;
-    top: -5px;
-    left: 10px;
-  }
 
   nav ul {
     text-align: right;
